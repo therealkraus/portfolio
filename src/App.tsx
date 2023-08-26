@@ -1,6 +1,10 @@
 import Logo from './components/Logo'
 import Menu from './components/Menu'
 import SocialMedia from './components/SocialMedia'
+import Home from './components/Home'
+import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
 
 function App() {
   return (
@@ -11,9 +15,11 @@ function App() {
         <Menu />
         <SocialMedia />
       </div>
-      <div className="flex bg-background w-4/5 min-h-screen">
-
-
+      <div className="flex flex-col bg-background w-4/5 min-h-screen gap-y-96">
+        <Home />
+        <Projects />
+        <AboutMe />
+        <ContactMe />
       </div>
     </div>
     </>

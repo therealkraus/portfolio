@@ -16,6 +16,10 @@ export default {
       },
       boxShadow: {
         '2': '0px 0px 8px 0px rgba(0, 0, 0, 1)',
+        'inner2': 'inset 0px 0px 8px 0px rgba(0, 0, 0, 0.125)'
+      },
+      dropShadow: {
+        '2': '0px 0px 5px rgba(0, 0, 0, 1)',
       },
       keyframes: {
         flipverticalright: {
