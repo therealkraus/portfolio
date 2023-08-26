@@ -1,7 +1,7 @@
 function SocialMedia() {
     return (
         <>
-            <div className="flex flex-row pt-16 justify-center space-x-5">
+            <div className="flex flex-row pt-14 pb-10 justify-center space-x-5">
                 <a href="#">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
