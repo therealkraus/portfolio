@@ -9,13 +9,13 @@ import ContactMe from './components/ContactMe'
 function App() {
   return (
     <>
-    <div className="flex">
-      <div className="flex bg-accent w-1/5 min-h-screen flex-col shadow-2 z-0 divide-y first:divide-neutral-500">
+    <div className="flex h-full">
+      <div className="flex bg-accent w-1/5 flex-col shadow-2 z-0 divide-y first:divide-neutral-500">
         <Logo />
         <Menu />
         <SocialMedia />
       </div>
-      <div className="flex flex-col bg-background w-4/5 min-h-screen gap-y-96">
+      <div className="flex flex-col bg-background w-4/5 gap-y-96 overflow-y-auto">
         <Home />
         <Projects />
         <AboutMe />
