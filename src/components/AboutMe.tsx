@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <>
-      <section id="about-me" className="max-w-screen-xl pl-28 pt-28">
+      <section id="about-me">
         <h1 className="text-5xl font-semibold dark:text-stone-300 leading-relaxed">
           About Me
         </h1>
